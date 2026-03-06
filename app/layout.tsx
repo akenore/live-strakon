@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://formation.strakon.fr'),
+  metadataBase: new URL('https://live.strakon.fr'),
   title: "Soirée STRAKON Demo — 17 Mars 2026 | Webinaire Gratuit",
   description: "Venez découvrir STRAKON en live le 17 mars 2026 à 20h00. Soirée démo gratuite, 100% en ligne, ouverte à tous. Démonstration, Q&A et nouveautés STRAKON.",
   keywords: ["STRAKON", "Soirée STRAKON", "Demo STRAKON", "Webinaire BIM", "Coffrage", "Armatures", "BIM France", "C2IT", "STRAKON Demo"],
@@ -23,14 +23,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Soirée STRAKON Demo — 17 Mars 2026 | Webinaire Gratuit",
     description: "Venez découvrir STRAKON en live le 17 mars 2026 à 20h00. Soirée démo gratuite et ouverte à tous.",
-    url: "https://formation.strakon.fr",
+    url: "https://live.strakon.fr",
     siteName: "C2IT & STRAKON — Soirée Demo",
     images: [
       {
         url: "/static/logo-strakon.png",
         width: 1200,
         height: 630,
-        alt: "STRAKON Formation",
+        alt: "Soirée STRAKON Demo",
       },
     ],
     locale: "fr_FR",

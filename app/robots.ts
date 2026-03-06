@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
                allow: '/',
                disallow: '/private/',
           },
-          sitemap: 'https://formation.strakon.fr/sitemap.xml',
+          sitemap: 'https://live.strakon.fr/sitemap.xml',
      }
 }
