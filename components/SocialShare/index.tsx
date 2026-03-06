@@ -1,7 +1,7 @@
 "use client";
 
 export default function SocialShare() {
-     const eventUrl = "https://formation.strakon.fr";
+     const eventUrl = "https://live.strakon.fr";
      const eventTitle = "Soirée STRAKON Demo — Mardi 17 Mars 2026 à 20h00";
      const eventDescription = "Venez découvrir STRAKON en live et en action — une soirée démo ouverte à tous, en ligne et 100% gratuite.";
 

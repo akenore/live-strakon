@@ -7,7 +7,7 @@ import { RegistrationSchema } from "@/lib/schemas/contact-schema";
 
 export async function submitContact(formData: FormData) {
      const apiKey = process.env.BREVO_API_KEY;
-     const listId = parseInt(process.env.LIST_ID || "42", 10);
+     const listId = parseInt(process.env.LIST_ID || "45", 10);
 
      if (!apiKey) {
           console.error("CRITICAL: BREVO_API_KEY is not defined in environment variables.");
